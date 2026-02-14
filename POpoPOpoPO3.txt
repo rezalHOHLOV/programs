@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int age = 18;
+    if (age >= 18)
+        printf("Доступ разрешен\n");
+    else
+        printf("Доступ запрещен\n");
+
+    int score = 85;
+    if (score >= 90)
+        printf("Оценка A\n");
+    else if (score >= 75)
+        printf("Оценка B\n");
+    else if (score >= 60)
+        printf("Оценка C\n");
+    else
+        printf("Оценка F\n");
+    return 0;
+}

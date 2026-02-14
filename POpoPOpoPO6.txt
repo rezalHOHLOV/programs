@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int n = 5;
+    int factorial = 1;
+    int counter = 1;
+    while (counter <= n) {
+        factorial *= counter;
+        printf("%d! = %d\n", counter, factorial);
+        counter++;
+    }
+    return 0;
+}

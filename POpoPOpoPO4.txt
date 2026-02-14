@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int x = 10, y = 20, z = 30;
+    printf("x < y && y < z: %d\n" x < y && y < z);
+    printf("x > y || y < z: %d\n" x < y || y < z);
+    printf("!(x > y): %d\n", !(x > y));
+    return 0;
+}
